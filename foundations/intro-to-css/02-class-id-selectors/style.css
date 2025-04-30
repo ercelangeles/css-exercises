@@ -8,7 +8,7 @@
     font-size: 36px;
 }
 
-.class.third {
+.class.third {  /* FIX: Add a class dedicated for adjusting font-size since #another uses it, too*/
     font-size: 24px;
 }
 

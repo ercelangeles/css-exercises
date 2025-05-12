@@ -1,13 +1,15 @@
-.click-me-btn {
+.blk-and-wht, 
+.blk-and-ylw {
+    font-size: 28px;
+    font-family: "Helvetica", "Times New Roman", sans-serif;
+}
+
+.blk-and-wht {
     background-color: black;
     color: white;
 }
 
-.no-click-me-btn {
+.blk-and-ylw {
     background-color: yellow;
 }
 
-.default-text-format {
-    font-size: 28px;
-    font-family: "Helvetica", "Times New Roman", sans-serif;
-}

@@ -22,7 +22,7 @@ body {
 }
 
 /* Buttons */
-.button { /* SWitched the order of .button and .confirm */
+.button { /* Switched the order of .button and .confirm */
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;

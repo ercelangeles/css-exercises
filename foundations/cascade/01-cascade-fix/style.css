@@ -2,13 +2,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.para,
-.small-para {
-  color: hsl(0, 0%, 0%);
-  font-weight: 800;
-}
 
-.small-para {
+/* Paraggraphs */
+
+
+.para.small-para {  /* Added .para to specify which element to target */
   font-size: 14px;
   font-weight: 800;
 }
@@ -17,25 +15,36 @@ body {
   font-size: 22px;
 }
 
+.para,
+.small-para {
+  color: hsl(0, 0%, 0%);
+  font-weight: 800;
+}
+
+/* Buttons */
+.button { /* SWitched the order of .button and .confirm */
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+
 .confirm {
   background: green;
   color: white;
   font-weight: bold;
 } 
 
-.button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  font-size: 20px;
-}
 
-.child {
+
+/*Inheritance */
+div.text.child { /* Added div.text to add specificity*/
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
 }
 
-div.text {
+div.text {  
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;

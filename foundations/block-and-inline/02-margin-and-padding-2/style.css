@@ -18,6 +18,7 @@ body {
 }
 
 .content {
+  overflow
   background: #e3f4ff;
   margin: 8px;
   padding: 16px 8px;

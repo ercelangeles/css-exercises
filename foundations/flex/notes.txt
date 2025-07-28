@@ -1,0 +1,5 @@
+Workflow for css I guess:
+- contain elements into their appropriate divs or containers
+- organize using justify-content and align-items
+- do not immediately resort to stuff outside of flex
+- if you still can't get the content to look how you want it to, then use margins, gaps and multiple class uses in css as a last resort. 

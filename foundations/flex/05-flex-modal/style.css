@@ -23,6 +23,8 @@ body {
 
   display: flex;
   padding: 16px;
+  gap: 16px;
+
 }
 
 .icon {
@@ -39,30 +41,23 @@ body {
 }
 
 /**/
-.main-content {
-  display: flex;
-  flex-direction: column;
+.icon, .close-button {
+  flex-shrink: 0;
 }
 
-.modal, .main-content, .header-close {
-  gap: 16px;
-}
-
-/**/
-.header-close {
-  display: flex;
-  justify-content: space-between;
-}
+/* I guess I need to individually set the margins since flex just ruins everything by not setting the text to align at baseline. */
 
 .header {
   display: flex;
   font-weight: bolder;
-  font-size: 20px;
-  align-self: baseline;
+  font-size: 18px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
 }
 
-.icon, .close-button {
-  flex-shrink: 0;
+.text {
+  margin-bottom: 16px;
 }
 
 .close-button {

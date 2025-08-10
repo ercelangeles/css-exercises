@@ -42,6 +42,7 @@ body {
 
   display: flex;
   flex-shrink: 0;
+  padding: 16px;
 }
 
 .card-container { /**/
@@ -70,8 +71,8 @@ body {
 ul { /**/
   list-style-type: none; 
   text-align: start;
-  margin: 8px;
-  padding: 8px;
+  padding: 0;
+  margin: 0;
 }
 
 a { /**/

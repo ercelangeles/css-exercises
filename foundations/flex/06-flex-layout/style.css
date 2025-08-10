@@ -7,62 +7,44 @@ body {
   font-family: Roboto, sans-serif;
 
   display: flex;
-  flex: auto;
   flex-direction: column;
   justify-content: space-between;
 }
 
-/**/
-.header, .footer {
+.header,
+.footer {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  padding: 16px;
+  padding: 16px
 }
 
-/**/
-.header {
-  align-items: flex-start;
+.footer {
+  background-color: #eeeeee;
 }
 
-/**/
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 16px;
+
+  /* I feel that these two are redundant for this example, but whatever. */
+  flex: 1;
+  justify-content: center;
+
 }
 
-/**/
-.footer {
-  align-items: flex-end;
-  background-color: #eeeeee;
-}
-
-/**/
-.left-links, .right-links {
+ul {
   display: flex;
-  align-items: center;
-  padding: 0;
+  list-style-type: none;
   margin: 0;
+  padding: 0;
   gap: 16px;
 }
 
-/**/
-ul {
-  list-style-type: none;
-}
-
-/**/
-a:link {
-  text-decoration: none;
+a {
   color: grey;
-}
-
-/**/
-a:visited {
   text-decoration: none;
-  color: grey;
 }
 
 img {
@@ -74,6 +56,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+
   padding: 8px 16px;
 }
 

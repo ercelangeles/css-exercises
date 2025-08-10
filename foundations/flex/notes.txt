@@ -1,5 +1,18 @@
 Workflow for css I guess:
-- contain elements into their appropriate divs or containers
-- organize using justify-content and align-items
-- do not immediately resort to stuff outside of flex
-- if you still can't get the content to look how you want it to, then use margins, gaps and multiple class uses in css as a last resort. 
+- Contain elements into their appropriate divs or containers
+- Organize using justify-content and align-items
+- Do not immediately resort to stuff outside of flex
+- If you still can't get the content to look how you want it to, then use margins, gaps and multiple class uses in css as a last resort. 
+- Use lists when the items in the list don't need a lot of customization, such as texts
+  - For items which need a lot of customizing, use divs because it can be a nightmare customizing list items
+- You don't need to use flexbox all the time to centre content because "text-align: center" might be sufficient enough (and might save you time and effort)
+
+
+Algorithm i guess:
+- Start with the bigger picture, then go smaller and smaller 
+  - i.e. organize the body, then go smaller in scope (divide and conquer)
+  - this is to avoid lengthy code
+  - Usually, you focus on the main positions of where everything is, then you work your way down in scope to where the code becomes more specific 
+      - The more specific something is, the more likely it will have conflicts with other things if not organized properly!
+  - The reason why you want to start from the biggest scope possible is because you'll end up having conflicts between things in smaller scopes (think of how more redundancy exists in a sorting algorithm like insertion sort compared to a better algorithm like merge sort)
+
